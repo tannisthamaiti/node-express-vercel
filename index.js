@@ -1,5 +1,6 @@
 const express = require("express"); 
 const app = express(); 
+app.use(express.static(__dirname + "/public"));
   
 // A simple get greet method 
 app.get("/greet", (req, res) => { 
@@ -9,4 +10,5 @@ app.get("/greet", (req, res) => {
 }); 
   
 // export the app for vercel serverless functions 
+
 module.exports = app;
