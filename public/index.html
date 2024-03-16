@@ -9,15 +9,13 @@
 <body>
   <h1>Save Data to JSON</h1>
   <form id="dataForm">
-    <input id="fname" name="name" placeholder="Name" type="text">
-        <!-- <label>Email :</label> -->
-    <input id="email" name="email" placeholder="Valid Email" type="text">
-        <!-- <label>Contact No. :</label> -->
-    <input id="contact" name="contact" placeholder="Contact No." type="text">
-    <textarea id="w3review" name="w3review" rows="4" cols="50">Why do you want to join this program?.</textarea>
+    <input id="name" name="name" placeholder="Name" type="text">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
     <button type="submit">Save Data</button>
   </form>
-  </div>
 
   <script>
     document.getElementById('dataForm').addEventListener('submit', function(event) {
