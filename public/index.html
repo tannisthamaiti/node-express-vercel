@@ -7,21 +7,16 @@
   <title>Save Data</title>
 </head>
 <body>
-  <div class="box">
-    <div><img src="img/logo.png" alt="Liftmap" class="logo"></div>
-    <h1>LWT AI Quiz</h1>
-    <form id="form_id" method="post" action="action.php" name="myform">
-        
-        <!-- <label>Name :</label> -->
-        <input id="fname" name="name" placeholder="Name" type="text">
+  <h1>Save Data to JSON</h1>
+  <form id="dataForm">
+    <input id="fname" name="name" placeholder="Name" type="text">
         <!-- <label>Email :</label> -->
-        <input id="email" name="email" placeholder="Valid Email" type="text">
+    <input id="email" name="email" placeholder="Valid Email" type="text">
         <!-- <label>Contact No. :</label> -->
-        <input id="contact" name="contact" placeholder="Contact No." type="text">
-        <textarea id="w3review" name="w3review" rows="4" cols="50">Why do you want to join this program?.</textarea>
-        <input  type="button" value="Submit" onclick="myfunction()">
-        
-        </form>
+    <input id="contact" name="contact" placeholder="Contact No." type="text">
+    <textarea id="w3review" name="w3review" rows="4" cols="50">Why do you want to join this program?.</textarea>
+    <button type="submit">Save Data</button>
+  </form>
   </div>
 
   <script>
