@@ -7,16 +7,22 @@
   <title>Save Data</title>
 </head>
 <body>
-  <h1>Save Data to JSON</h1>
-  <form id="dataForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="age">Age:</label>
-    <input type="number" id="age" name="age"><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
-    <button type="submit">Save Data</button>
-  </form>
+  <div class="box">
+    <div><img src="img/logo.png" alt="Liftmap" class="logo"></div>
+    <h1>LWT AI Quiz</h1>
+    <form id="form_id" method="post" action="action.php" name="myform">
+        
+        <!-- <label>Name :</label> -->
+        <input id="fname" name="name" placeholder="Name" type="text">
+        <!-- <label>Email :</label> -->
+        <input id="email" name="email" placeholder="Valid Email" type="text">
+        <!-- <label>Contact No. :</label> -->
+        <input id="contact" name="contact" placeholder="Contact No." type="text">
+        <textarea id="w3review" name="w3review" rows="4" cols="50">Why do you want to join this program?.</textarea>
+        <input  type="button" value="Submit" onclick="myfunction()">
+        
+        </form>
+  </div>
 
   <script>
     document.getElementById('dataForm').addEventListener('submit', function(event) {
