@@ -1,26 +1,45 @@
-const http = require('http');
+// server.js
+const express = require('express');
 const fs = require('fs');
-const port =3000;
+const path = require('path');
 
-const server = http.createServer(function(req,res){
-    res.writeHead(200, {'Content-Type': 'text/html'})
-    fs.readFile('index.html',function(error,data){
-        if (error){
-            
-            res.writeHead(404)
-            res.write("Error: File not found")
-        }else{
-            res.write(data)
-        }
-        res.end();
-    })
+const app = express();
+const port = 3000;
 
-})
+app.use(express.json());
+app.use(express.static('public'));
 
-server.listen(port,function(error){
-    if (error){
-        console.log("Something went wrong", error)
+const dataFilePath = path.join(__dirname, 'data', 'data.json');
+
+app.post('/save-data', (req, res) => {
+  const newData = req.body;
+  
+  fs.readFile(dataFilePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading file:', err);
+      return res.status(500).json({ message: 'Error saving data.' });
     }
-    else
-    console.log("Server is listening on port "+ port)
-})
+    
+    const existingData = JSON.parse(data);
+   
+    //console.log(existingData);
+    existingData.push(newData);
+
+    fs.writeFile(dataFilePath, JSON.stringify(existingData, null, 2), (err) => {
+      if (err) {
+        console.error('Error writing to file:', err);
+        return res.status(500).json({ message: 'Error saving data.' });
+      }
+      console.log('Data saved to file successfully.');
+      res.json({ message: 'Data saved successfully.' });
+    });
+  });
+});
+
+
+
+app.listen(port, () => {
+  console.log(`Server is listening at http://localhost:${port}`);
+});
+// const port = process.env.PORT || 9001;
+// app.listen(port, () => console.log(`Listening to port ${port}`));
