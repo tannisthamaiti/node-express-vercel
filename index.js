@@ -30,12 +30,7 @@ app.post('/save-data', (req, res) => {
   });
 });
   
-// A simple get greet method 
-app.get("/greet", (req, res) => { 
-    // get the passed query 
-    const { name } = req.query; 
-    res.send({ msg: `Welcome ${name}!` }); 
-}); 
+ 
   
 // export the app for vercel serverless functions 
 
