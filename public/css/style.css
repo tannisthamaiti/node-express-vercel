@@ -105,3 +105,11 @@ input[type=text]{
     .btn-primary{width:100%;
         background-color: #634904;
 }}
+.quiz{
+    padding:20px 0;
+
+}
+.quiz h2{
+    font-size:18px;
+    font-weight: 600;
+}
