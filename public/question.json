@@ -23,12 +23,22 @@
 {"text":"use numpy as np", "correct":false},
 {"text":"none of the above", "correct":false}]
 },
-{"question":"How can you use a function pandas in python?",
-"answers":[{"text":"pandas ", "correct":false}, 
-{"text":" import numpy as np", "correct":true},
-{"text":"use numpy as np", "correct":false},
-{"text":"none of the above", "correct":false}]
+{"question":"Which keyword is used to create an instance (object) of a class?",
+"answers":[{"text":"new ", "correct":false}, 
+{"text":"create", "correct":false},
+{"text":"instance", "correct":false},
+{"text":"class", "correct":true}]
+},
+{"question":"What is encapsulation in OOP?",
+"answers":[{"text":"The process of hiding data within a class", "correct":true}, 
+{"text":"The process of creating multiple instances of a class", "correct":false},
+{"text":"The process of defining class methods", "correct":false},
+{"text":"The process of inheritance", "correct":false}]
+},
+{"question":"Which method is automatically called when an object is created from a class?",
+"answers":[{"text":"__init__()", "correct":true}, 
+{"text":"__new__()", "correct":false},
+{"text":"__create__()", "correct":false},
+{"text":"__instance__()", "correct":false}]
 }
-    
-
 ]
