@@ -40,5 +40,32 @@
 {"text":"__new__()", "correct":false},
 {"text":"__create__()", "correct":false},
 {"text":"__instance__()", "correct":false}]
+},
+{"question":"In Python, what is the purpose of inheritance?",
+"answers":[{"text":"To create new classes", "correct":false}, 
+{"text":"To allow one class to inherit properties and methods from another", "correct":true},
+{"text":"To override existing methods", "correct":false},
+{"text":"To encapsulate data", "correct":false}]
+},
+{"question":"Which of the following is a common activation function used in convolutional layers?",
+"answers":[{"text":"Sigmoid", "correct":false}, 
+{"text":"ReLU (Rectified Linear Unit)", "correct":true},
+{"text":"Tanh (Hyperbolic Tangent)", "correct":false},
+{"text":"Linear (Identity).", "correct":false}]
+},
+{"question":"Pooling layers in CNNs are primarily used for:",
+"answers":[{"text":"Reducing the size of the input volume.", "correct":true}, 
+{"text":"Increasing the size of the input volume.", "correct":false},
+{"text":"Adding more convolutional filters.","correct":false},
+{"text":"Introducing non-linearity into the network.", "correct":false}]
+},
+{"question":"What is the purpose of the Flatten layer in a Convolutional Neural Network?",
+"answers":[{"text":"To convert a 3D volume into a 1D vector.", "correct":true}, 
+{"text":"To apply a kernel filter to the input volume.", "correct":false},
+{"text":" To increase the depth of the input volume.","correct":false},
+{"text":"To introduce non-linearity into the network..", "correct":false}]
 }
+
+
+
 ]
