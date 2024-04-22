@@ -11,11 +11,11 @@
 {"text":"A prompt is a short piece of code that is given to the large language model as input, and it can be used to control the output of the model in many ways.", "correct":true},
 {"text":"A prompt is a short piece of text that is given to the large language model as input, and it can be used to control the input of the model in many ways.", "correct":false}]
 },
-{"question":"Generative AI is a type of Artificial intelligence (AI) that can ",
-"answers":[{"text":" create new content, such as discrete numbers, classes, and probabilities. It does this by learning from existing data and then using that knowledge to generate new and unique outputs", "correct":false}, 
-{"text":" only create new content, such as text, images, audio, and video by learning from new data and then using that knowledge to predict a discrete, supervised learning output.", "correct":false},
-{"text":"create new content, such as text, images, audio, and video. It does this by learning from existing data and then using that knowledge to generate new and unique outputs.", "correct":true},
-{"text":"only create new content, such as text, images, audio, and video by learning from new data and then using that knowledge to predict a classification output", "correct":false}]
+{"question":"What is a class in Python?",
+"answers":[{"text":"A built-in data type.", "correct":false}, 
+{"text":"A blueprint for creating objects.", "correct":true},
+{"text":"A function that returns a value", "correct":false},
+{"text":"A module for file I/O", "correct":false}]
 },
 {"question":"How can you use a function numpy in python?",
 "answers":[{"text":"numpy ", "correct":false}, 
