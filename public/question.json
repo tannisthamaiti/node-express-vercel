@@ -124,7 +124,52 @@
 {"text":"26x26", "correct":true},
 {"text":"28x28","correct":false},
 {"text":" 30x30", "correct":false}]
+},
+{"question":"What effect does increasing the `stride` parameter in a convolutional layer have on the output size?",
+"answers":[{"text":"Increases the output size.", "correct":false}, 
+{"text":"Decreases the output size.", "correct":true},
+{"text":"No effect on the output size.","correct":false},
+{"text":"Increases the number of output channels.", "correct":false}]
+},
+{"question":"What does a `padding` of `(1, 2)` in a 2D convolutional layer mean?",
+"answers":[{"text":"1 pixel of padding on all sides.", "correct":false}, 
+{"text":"1 pixel of padding on the top and bottom, 2 pixels on the left and right .", "correct":true},
+{"text":"2 pixels of padding on all sides.","correct":false},
+{"text":"No padding.", "correct":false}]
+},
+{"question":" If a 3x3 kernel is convolved over a 32x32 input with a stride of 2 and no padding, what is the size of the output?",
+"answers":[{"text":"16x16", "correct":false}, 
+{"text":"15x15", "correct":true},
+{"text":"17x17","correct":false},
+{"text":"14x14", "correct":false}]
+},
+{"question":"In PyTorch, what module is used to create a fully connected layer?",
+"answers":[{"text":"`nn.Conv2d`", "correct":false}, 
+{"text":"`nn.MaxPool2d`", "correct":false},
+{"text":"`nn.Linear`","correct":true},
+{"text":"`nn.BatchNorm2d`", "correct":false}]
+},
+{"question":"What does the `in_features` parameter represent in PyTorch's `nn.Linear` module?",
+"answers":[{"text":"The number of output features ", "correct":false}, 
+{"text":"The number of input features", "correct":true},
+{"text":"The number of neurons in the layer","correct":false},
+{"text":"The number of layers in the network", "correct":false}]
+},
+{"question":"If you have an input tensor of size `(batch_size, 64)` and you pass it through a fully connected layer with `out_features=128`, what will be the size of the output tensor?",
+"answers":[{"text":"`(batch_size, 64)`", "correct":false}, 
+{"text":"`(batch_size, 128)`", "correct":true},
+{"text":"`(batch_size, 192)`","correct":false},
+{"text":"`(batch_size, 256)`", "correct":false}]
+},
+{"question":"In PyTorch, which class is commonly used to perform backpropagation and update the model parameters?",
+"answers":[{"text":"`torch.optim.SGD`", "correct":false}, 
+{"text":"`torch.nn.Module`", "correct":true},
+{"text":" `torch.autograd.backward()`","correct":false},
+{"text":"`torch.nn.CrossEntropyLoss`", "correct":false}]
 }
+
+
+
 
 
 
