@@ -63,8 +63,41 @@
 "answers":[{"text":"To convert a 3D volume into a 1D vector.", "correct":true}, 
 {"text":"To apply a kernel filter to the input volume.", "correct":false},
 {"text":" To increase the depth of the input volume.","correct":false},
-{"text":"To introduce non-linearity into the network..", "correct":false}]
+{"text":"To introduce non-linearity into the network.", "correct":false}]
+},
+{"question":"Which of the following is not a common practice for improving the training of CNNs?",
+"answers":[{"text":"Data Augmentation.", "correct":false}, 
+{"text":"Dropout.", "correct":false},
+{"text":"Batch Normalization.","correct":false},
+{"text":"Increasing the learning rate exponentially over time", "correct":true}]
+},
+{"question":"How can you access the weights of a PyTorch neural network model?",
+"answers":[{"text":" Using the model.weights attribute.", "correct":false}, 
+{"text":"By iterating over model.parameters().", "correct":true},
+{"text":"Accessing model.weights() method.","correct":false},
+{"text":"There is no direct way to access weights in PyTorch.", "correct":false}]
+},
+{"question":"Which loss function is commonly used for multi-class classification problems in PyTorch?",
+"answers":[{"text":"Mean Squared Error (MSE)", "correct":false}, 
+{"text":"Cross-Entropy Loss.", "correct":true},
+{"text":"Binary Cross-Entropy Loss.","correct":false},
+{"text":"Kullback-Leibler Divergence.", "correct":false}]
+},
+{"question":"Which loss function is commonly used for binary classification problems in PyTorch?",
+"answers":[{"text":"Mean Squared Error (MSE)", "correct":false}, 
+{"text":"Cross-Entropy Loss.", "correct":false},
+{"text":"Binary Cross-Entropy Loss.","correct":true},
+{"text":"Kullback-Leibler Divergence.", "correct":false}]
+},
+{"question":"Which loss function is used for regression problems in PyTorch?",
+"answers":[{"text":"Mean Squared Error (MSE)", "correct":true}, 
+{"text":"Cross-Entropy Loss.", "correct":false},
+{"text":"Binary Cross-Entropy Loss.","correct":false},
+{"text":"Kullback-Leibler Divergence.", "correct":false}]
 }
+
+
+
 
 
 
