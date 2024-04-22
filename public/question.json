@@ -94,7 +94,38 @@
 {"text":"Cross-Entropy Loss.", "correct":false},
 {"text":"Binary Cross-Entropy Loss.","correct":false},
 {"text":"Kullback-Leibler Divergence.", "correct":false}]
+},
+{"question":"What does the `padding` parameter in PyTorch's `nn.Conv2d` module do?",
+"answers":[{"text":"It specifies the number of output channels.", "correct":false}, 
+{"text":"It specifies the size of the kernel.", "correct":false},
+{"text":"It specifies the amount of zero-padding added to both sides of the input.","correct":true},
+{"text":"It specifies the size of the input.", "correct":false}]
+},
+{"question":"Which of the following statements about the `stride` parameter in PyTorch's `nn.Conv2d` module is true?",
+"answers":[{"text":"It specifies the size of the input.", "correct":false}, 
+{"text":" It specifies the number of output channels.", "correct":false},
+{"text":"It specifies the amount the kernel is shifted over the input.","correct":true},
+{"text":"It specifies the size of the kernel.", "correct":false}]
+},
+{"question":"What does a `stride` of 2 in a 2D convolutional layer mean?",
+"answers":[{"text":"The kernel is moved 2 pixels at a time.", "correct":true}, 
+{"text":"The kernel is moved 2 pixels to the right and 2 pixels down.", "correct":false},
+{"text":"The kernel is moved 2 pixels to the left and 2 pixels up.","correct":false},
+{"text":" The kernel is moved 2 pixels to the right.", "correct":false}]
+},
+{"question":"In PyTorch, what is the default value of the `padding` parameter in the `nn.Conv2d` module?",
+"answers":[{"text":"0", "correct":true}, 
+{"text":"1", "correct":false},
+{"text":"2","correct":false},
+{"text":"None", "correct":false}]
+},
+{"question":"If a 5x5 kernel is convolved over a 28x28 input with a stride of 1 and no padding, what is the size of the output?",
+"answers":[{"text":"24x24", "correct":false}, 
+{"text":"26x26", "correct":true},
+{"text":"28x28","correct":false},
+{"text":" 30x30", "correct":false}]
 }
+
 
 
 ]
