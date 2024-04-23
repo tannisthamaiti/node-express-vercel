@@ -178,7 +178,20 @@
 {"text":"Backward pass, forward pass, loss computation, optimizer step.", "correct":false},
 {"text":"Loss computation, forward pass, backward pass, optimizer step.","correct":false},
 {"text":"Forward pass, backward pass, loss computation, optimizer step.", "correct":false}]
+},
+{"question":" Which of the following is true about an orthogonal matrix?",
+"answers":[{"text":"Its transpose is its inverse .", "correct":true}, 
+{"text":" Its determinant is always 1 .", "correct":false},
+{"text":"Its determinant is always -1 .","correct":false},
+{"text":" It cannot have negative eigenvalues .", "correct":false}]
+},
+{"question":"What is the result of multiplying a \( 3 \times 2 \) matrix by a \( 2 \times 4 \) matrix?",
+"answers":[{"text":" A \( 2 \times 2 \) matrix .", "correct":true}, 
+{"text":" A \( 3 \times 4 \) matrix   .", "correct":false},
+{"text":"A \( 2 \times 3 \) matrix  .","correct":false},
+{"text":"A \( 3 \times 3 \) matrix  .", "correct":false}]
 }
+
 
 
 
