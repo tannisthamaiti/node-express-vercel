@@ -1,4 +1,4 @@
-[{"question":"Which of the following models is NOT a generative AI model 2 \u00D7 3 = 6",
+[{"question":"Which of the following models is NOT a generative AI model",
 "answers":[
     {"text":"BERT (Bidirectional Encoder Representations from Transformers)", "correct":false}, 
     {"text":"CNN (Convolution Neural Network)", "correct":true},
@@ -185,11 +185,11 @@
 {"text":"Its determinant is always -1 .","correct":false},
 {"text":" It cannot have negative eigenvalues .", "correct":false}]
 },
-{"question":"What is the result of multiplying a \\( 3 \\times 2 \\) matrix by a \\( 2 \\times 4 \\) matrix?",
-"answers":[{"text":" A \b( 2 \btimes 2 \b) matrix .", "correct":true}, 
-{"text":" A \b( 3 \btimes 4 \b) matrix   .", "correct":false},
-{"text":"A \b( 2 \btimes 3 \b) matrix  .","correct":false},
-{"text":"A \b( 3 \btimes 3 \b) matrix  .", "correct":false}]
+{"question":"What is the result of multiplying a  3 \u00D7 2  matrix by a  2 \u00D7 4  matrix?",
+"answers":[{"text":" A  2 \u00D7 2  matrix .", "correct":false}, 
+{"text":" A  3 \u00D7 4  matrix.", "correct":true},
+{"text":"A  2 \u00D7 3  matrix.","correct":false},
+{"text":"A  3 \u00D7 3  matrix .", "correct":false}]
 }
 
 
